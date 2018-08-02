@@ -1,5 +1,5 @@
-Display Model
-=============
+CSS Display Model
+=================
 
    Display Group 
    -------------
