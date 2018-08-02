@@ -2,7 +2,6 @@ CSS Display Model
 =================
 
    ## 1. Display Group 
-   ------------------
 
    > outside | inside | listitem | internal | box | legacy
 
@@ -43,7 +42,7 @@ CSS Display Model
 
 
    ## 2. Flex Box (css flexible box layout module)
-   -----------------------------------------
+ 
    > * display: flex | inline-flex
    > * 직계 자식은 자동적으로 flex-item이 된다. (flexbox는 상속되지 않는다.)
    > * flexbox는 기본적으로 그림을 그릴 때 한 줄만 그리는 정책을 가지고 있다.
@@ -70,7 +69,7 @@ CSS Display Model
    >> + flex-wrap에 적용되는 속성이다. 즉 flex-wrap에 따라 정렬된 flex-line을 어떻게 정렬할지 지정하는 속성이다.
 
    ## 2.1 Flex Item
-   ----------------
+   
    > * order : order를 이용해 순서를 마음대로 바꿀 수 있다. 
    > * DOM Rendering이 아니라 Post-Process에 따라 그려지기 때문에 속도가 빠르다. GPU에 올려서 그리기 때문.
    > * 즉, Reflow가 안 일어나고 Repaint만 하기 때문에 JS를 이용해 order만 바꿔줘도 훨씬 빠르고 쉽게 바꿔줄 수 있다.
