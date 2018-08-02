@@ -10,7 +10,7 @@
         2. listitem (list-item)
             - 옛날에는 CSS가 아니라 태그 자체에 li처럼 그려달라는 알고리즘이 설계되어 있었다. 
               그래서 display 속성으로 listitem을 주면 자동으로 해당 속성을 가진 태그는 li로 그려졌다.
-            - 이런 개념은 <table>과도 비슷하다. 
+            - 이런 개념은 table 도 비슷하다. 
         
         3. box
             - contents | none
@@ -21,7 +21,7 @@
         4. inside (contents layout)
             - flow | flow-root | table | flex | grid | subgrid | ruby
             - outside는 바깥쪽(부모)에서 자신(자식)을 어떻게 그리도록 할 것인지 명령하는 그룹이라면
-            inside는 자기 자신의 안 쪽에 있는 태그들을 어떻게 그릴 것인지 명령하는 그룹이다.
+              inside는 자기 자신의 안 쪽에 있는 태그들을 어떻게 그릴 것인지 명령하는 그룹이다.
 
         5. legacy
             - inline contents layout
