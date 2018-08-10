@@ -78,3 +78,4 @@ CSS Display Model
    > * flex-grow : 어디까지 늘어나게 할지 한계를 지정함 (다른 item과의 상대적인 비율로 지정된다.)
    > * flex-shrink : 어디까지 줄어들게 할지 한계를 지정함 (다른 item과의 상대적인 비율로 지정된다.)
    > * flex-basis : auto|content or width,height
+   > * flex layout 안에 있는 item들에 width 값을 설정해주었는데 도합 width가 screen size를 초과하면 자동으로 비율이 조정된다.
